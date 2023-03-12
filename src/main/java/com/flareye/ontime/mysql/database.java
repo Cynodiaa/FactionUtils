@@ -9,9 +9,9 @@ public class database {
     public static void setDB() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            String ConnectionString = "jdbc:mysql://45.95.214.6:3306/FlareyeSys";
+            String ConnectionString = "";
 
-            Connection startup = DriverManager.getConnection(ConnectionString, "FlareyeSys", "BnE273-z@zKl^");
+            Connection startup = DriverManager.getConnection(ConnectionString, "", "");
             ResultSet rs = startup.getMetaData().getTables(startup.getCatalog(), "", null, new String[]{"TABLE"});
             while(rs.next() && !databaseFound) {
                 String tableName = rs.getString("TABLE_NAME");
