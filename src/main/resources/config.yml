@@ -1,0 +1,5 @@
+# FactionUtils plugininin config.yml dosyasına hoşgeldiniz. Değişiklik yaparken yaml dosyası kurallarına uymaya özen gösterin.
+# Dosyada yaptığınız hatalar yaptığınız değişikliklerin silinmesine yol açabilir. Dikkatli olun!
+# Kullanmak istediğiniz dilin kodunu locale bölümüne girerek plugini istediğiniz dile çevirebilirsiniz.
+# Aktif dil kodları: tr(Türkçe), en(İngilizce), de(Almanca), fr(Fransızca), ru(Rusça)
+locale: tr

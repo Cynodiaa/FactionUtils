@@ -1,0 +1,13 @@
+name: FactionUtils
+main: com.flareye.FactionUtils
+version: '${project.version}'
+website: https://flareye.com
+description: Faction sunucuları için fazladan sunucu içi olanaklar sağlar
+softdepend: [ Factions, EssentialsX, LuckPerms ]
+authors: [ Cynodia, Wyntine ]
+api-version: 1.17
+commands:
+  chat:
+    description: Provides chat management
+    usage: /<command> [clear|lock|unlock]
+    aliases: [sohbet, ct]
